@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="home.js"></script>
+</head>
+<body onload="display()">
+    <form action="" name="myform" id="myform">
+        <div>
+            <br><br><br>
+            &nbsp;&nbsp;<b>Enter number1: </b>
+            <input type="text" name="exp1" id="exp1"><br><br>
+            &nbsp;&nbsp;<b>Enter number2: </b>
+            <input type="text" name="exp2" id="exp2"><br><br>
+            <input type="button" value="Calculate" onclick="calculate()"><br><br>
+            <b>Result: </b>
+            <input type="text" id="result">
+            <br><br>
+        </div>
+        <hr>
+        <div>
+            <br><br>
+            <b>Change background color:</b>
+            <input type="button" value="Click here" id="change" onclick="changecolor()">
+        </div>
+    </form>
+</body>
+</html>
